@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>IP Location Finder</title>
+<style>
+
+body{
+font-family: Arial;
+background:#0f172a;
+color:white;
+text-align:center;
+padding:50px;
+}
+
+.box{
+background:#1e293b;
+padding:30px;
+border-radius:10px;
+width:350px;
+margin:auto;
+}
+
+button{
+padding:10px 20px;
+border:none;
+background:#22c55e;
+color:white;
+font-size:16px;
+cursor:pointer;
+border-radius:5px;
+}
+
+.result{
+margin-top:20px;
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="box">
+
+<h2>IP Location Finder</h2>
+
+<button onclick="getLocation()">Find My Location</button>
+
+<div class="result" id="result"></div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
